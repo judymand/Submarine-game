@@ -20,7 +20,7 @@ int main() {
 	int i, j;
 	for (i = 0; i < SIZE; ++i) {
 		for (j = 0; j < SIZE; ++j) {
-			matrix_see[i][j] = '  ';/*Initializes the matrix in a ' '*/
+			matrix_see[i][j] = ' ';/*Initializes the matrix in a ' '*/
 		}
 	}
 	int matrix[SIZE][SIZE];
